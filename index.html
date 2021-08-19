@@ -37,27 +37,14 @@
 	
 <script> var audio=document.createElement('audio');
  var first=true;
-      window.addEventListener('mouseup',onmouseup);
+      window.addEventListener('mousemove',onmousemove);
  
-    function onmouseup(){
+    function onmousemove(){
        if(!first) return;
        first=false;
        audio.src="soundbgm.mp3";
        audio.play();
     }
-</script>
-<div>
-	<a href="#noscroll" id="mute">toggle sound</a>
-</div>	
-<script>
-var audio = document.getElementById('audio');
-
-document.getElementById('mute').addEventListener('click', function (e)
-{
-    e = e || window.event;
-    audio.muted = !audio.muted;
-    e.preventDefault();
-}, false);	
 </script>
 	
 	
