@@ -28,20 +28,6 @@ display: block;
 max-width:100px;
 min-width: 50px;
 }
-#nmode {
-	color: mediumturquoise;
-	text-decoration: none;
-	text-align: center; 
-    display:block;
-	
-	
-}
-#dmode {
-	color: antiquewhite;
-	text-decoration: none;
-	text-align: center;  
-    display:block;
-}
 #a {
   text-align: center;
   font-size: 1.3rem;
@@ -122,4 +108,13 @@ padding-top: 20px;
 
 
 
+}
+
+#mute{
+	text-decoration: none;
+	color: aliceblue;
+	text-align: center;
+	margin-left: auto;
+    margin-right: auto;
+    display: block;
 }

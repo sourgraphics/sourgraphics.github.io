@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+</head>
+
+<body>
+
+<audio id="audio">
+    <source src="soundbgm.mp3" type="audio/mp3">
+</audio>
+	
+<script> var audio=document.createElement('audio');
+ var first=true;
+      window.addEventListener('mousedown',onmousedown);
+ 
+    function onmousedown(){
+       if(!first) return;
+       first=false;
+       audio.src="soundbgm.mp3";
+       audio.play();
+    }
+</script>
+	
+<a href="#noscroll" id="mute">toggle sound</a>
+<script>
+var audio = document.getElementById('audio');
+
+document.getElementById('mute').addEventListener('click', function (e)
+{
+    e = e || window.event;
+    audio.muted = !audio.muted;
+    e.preventDefault();
+}, false);	
+</script>
+
+</body>
+</html>
