@@ -110,3 +110,11 @@ padding-top: 20px;
 
 }
 
+#mutesound {
+	text-decoration: none;
+	color: aliceblue;
+	text-align: center;
+	margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
