@@ -37,9 +37,9 @@
 	
 <script> var audio=document.createElement('audio');
  var first=true;
-      window.addEventListener('mousedown',onmousedown);
+      window.addEventListener('mouseup',onmouseup);
  
-    function onmousedown(){
+    function onmouseup(){
        if(!first) return;
        first=false;
        audio.src="soundbgm.mp3";
