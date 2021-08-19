@@ -102,3 +102,24 @@ nav a:hover{
     border: 1px solid cornflowerblue;
 }
 
+#icon {
+margin-left: auto;
+margin-right: auto;
+width: 10%;
+display: block;
+max-width:300px;
+min-width:300px;
+}
+
+#contanctinfo {
+background: #1B1B1B;
+width: 250px;
+margin-left: auto;
+margin-right: auto;
+display: block;
+padding-bottom: 20px;
+padding-top: 20px;
+
+
+
+}
