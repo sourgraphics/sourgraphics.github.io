@@ -1,5 +1,9 @@
 @charset "utf-8";
 
+body {
+background-color: rgba(39,39,45,1.00)
+}
+
 
 .gallery{
 	margin: 10px 50px;
@@ -16,4 +20,50 @@
 	
 	filter: grayscale(100%);
 	transform: scale(1.1);
+}
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif"
+}
+
+nav{
+    width: 100%;
+    margin: 0px auto 0px auto;
+    background-color: white;
+    position: sticky;
+    top: 0px;
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+nav li{
+    float: left;
+    width: 25%;
+    text-align: center;
+	list-style: none;
+}
+
+nav ul::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+nav a{
+    display: block; 
+    text-decoration: none;
+    color: white;
+    border-bottom: 2px solid transparent;
+    padding: 5px 0px;
+	background: #1B1B1B;
+}
+
+nav a:hover{
+    color: cornflowerblue;
+    border: 1px solid cornflowerblue;
 }
